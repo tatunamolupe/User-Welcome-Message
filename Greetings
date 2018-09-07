@@ -1,0 +1,31 @@
+<!NOWIZARD>
+
+<!SCRIPT>
+<!-- START OF SCRIPT -->
+<!-- Original: Tatuna Molupe -->
+<!-- Author: Tatuna Software Solutions -->
+<!-- Website: sites.google.com/tssintercafe -->
+
+<script>
+
+var Digital=new Date()
+var hours=Digital.getHours()
+
+//Configure message below to your own.
+if (hours>=5&&hours<=11) //MESSAGE FOR MORNING
+document.write('<b>Welcome to our site. Good morning visitor.</b>')
+else if (hours==12) //MESSAGE FOR NOON
+document.write('<b>It is high noon. Thanks for dropping by!</b>')
+else if (hours>=13&&hours<=17) //MESSAGE FOR AFTERNOON
+document.write('<b>Good afternoon, and thanks for visiting.</b>')
+else if (hours>=18&&hours<=20) //MESSAGE FOR EVENING (6pm-8pm)
+document.write('<b>Good evening. Hope you\'re enjoying the gentle breeze</b>')
+else if (hours>=21&&hours<=11) //MESSAGE FOR NIGHT (9pm-11pm)
+document.write('<b>Glad to see you this time of the night.</b>')
+else //MESSAGE FOR LATE NIGHT, EARLY MORNING (12pm-4am)
+document.write('<b>Wow, thanks for choosing to visit our site over sleep!</b>')
+
+</script>
+<!-- END OF SCRIPT -->
+<!/SCRIPT>
+
